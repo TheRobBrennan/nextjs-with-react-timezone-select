@@ -33,6 +33,3 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-
-# 2023.05.19 - Types need to be manually updated for this specific node module
-!node_modules/react-timezone-select/dist/index.d.ts

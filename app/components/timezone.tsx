@@ -16,6 +16,7 @@ export default function Timezone() {
       <div className="select-wrapper">
         <TimezoneSelect
           value={selectedTimezone}
+          /* @ts-ignore 2023.05.19 - Types need to be manually updated for this specific node module as their simple example does not support this typing */
           onChange={setSelectedTimezone}
         />
       </div>
