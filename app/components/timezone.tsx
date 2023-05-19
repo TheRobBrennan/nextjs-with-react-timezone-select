@@ -13,7 +13,10 @@ export default function Timezone() {
     <div className="App">
       <h2>react-timezone-select</h2>
       <blockquote>Please make a selection</blockquote>
-      <div className="select-wrapper">
+      <div style={{
+        borderRadius: '5px',
+      }}
+      >
         <TimezoneSelect
           value={selectedTimezone}
           /* @ts-ignore 2023.05.19 - Types need to be manually updated for this specific node module as their simple example does not support this typing */
@@ -24,15 +27,13 @@ export default function Timezone() {
       <div
         style={{
           backgroundColor: '#ccc',
-          padding: '20px',
-          margin: '20px auto',
+          padding: '10px',
           borderRadius: '5px',
-          maxWidth: '600px',
+          width: '95vw'
         }}
       >
         <pre
           style={{
-            margin: '0 20px',
             fontWeight: 500,
             fontFamily: 'monospace',
           }}
