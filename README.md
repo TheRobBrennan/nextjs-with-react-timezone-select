@@ -1,5 +1,16 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+You can view a [demo](https://nextjs-with-react-timezone-select.vercel.app) of this project at [https://nextjs-with-react-timezone-select.vercel.app](https://nextjs-with-react-timezone-select.vercel.app)
+
+By default, the web app loads using your timezone:
+![](./public/screenshots/01.png)
+
+You can filter and select a timezone you would like to see more details about:
+![](./public/screenshots/02.png)
+
+The result?
+![](./public/screenshots/03.png)
+
 ## Getting Started
 
 First, run the development server:
